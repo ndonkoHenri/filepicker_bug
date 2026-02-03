@@ -112,7 +112,7 @@ jobs:
       - name: Build app
         shell: bash
         run: |
-          uv run ${{ matrix.build_cmd }}
+          uv run ${{ matrix.build_cmd }} --template-ref flet-direct-dep
       
       - name: Upload Artifact
         uses: actions/upload-artifact@v5.0.0
