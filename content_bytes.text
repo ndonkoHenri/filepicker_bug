@@ -1,0 +1,13 @@
+
+        The bug in the Android version of Filepicker has been reproduced.
+This will demonstrate how to save a file.
+And successfully reproduce the bug. 
+
+filepicker 安卓版 bug 复现.
+这里将演示如何保存一个文件.
+并成功复刻出bug.
+
+Android版Filepickerのバグ再現。ファイルの保存方法を説明します。
+バグは再現されました。
+
+The text above will be saved to a file, with the goal of making it work on all platforms.
