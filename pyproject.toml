@@ -8,19 +8,19 @@ authors = [
     { name = "Flet developer", email = "you@example.com" }
 ]
 dependencies = [
-    "flet==0.80.0",
+    "flet>=0.80.5",
 ]
 
 [dependency-groups]
 dev = [
-    "flet-cli==0.80.0",
+    "flet[all]>=0.80.5",
 ]
 
 [tool.flet]
-org = "com.mycompany"
-product = "filepicker_exp-4"
-company = "jogfeeling"
-copyright = "Copyright (C) 2023-2026 by Flet"
+org = "com.zyx"
+product = "filepicker_issue"
+company = "xyz"
+copyright = "Copyright (C) 2026 by XYZ"
 
 [tool.flet.app]
 path = "."
